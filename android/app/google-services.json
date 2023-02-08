@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958659960363",
+    "project_id": "lavash-1fdf1",
+    "storage_bucket": "lavash-1fdf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958659960363:android:81a96eddaa7a39171a946e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_lavash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958659960363-peqm3aj8u6c1pf3tb5cd4v038oj07ml6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZttASaGQtaig_XdNzSd7B5VFvnPycsy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958659960363-peqm3aj8u6c1pf3tb5cd4v038oj07ml6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
