@@ -8,12 +8,15 @@ class SnackBarService {
 
   static Future<void> showSnackBar(
       BuildContext context, String message, bool error) async {
-    ScaffoldMessenger.of(context).removeCurrentSnackBar();
 
-    final snackBar = SnackBar(
-      content: Text(message),
-      backgroundColor: error ? errorColor : okColor,
-    );
+    SnackBar snackBar = SnackBar(
+              duration: const Duration(seconds: 2),
+              backgroundColor: Colors.red,
+              content: Text(
+                message,
+                style: const TextStyle(color: Colors.white, fontSize: 16),
+              ),
+            );
 
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
