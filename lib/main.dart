@@ -6,6 +6,7 @@ import 'package:flutter_lavash/src/auth/firebase_stream.dart';
 import 'package:flutter_lavash/src/pages/sigin_page.dart';
 import 'package:flutter_lavash/src/pages/sigup.dart';
 import 'package:flutter_lavash/src/screens/main_screen.dart';
+import 'package:flutter_lavash/src/widgets/register_with_phonenumber.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           routes: {
-            '/': (context) => const SigUpPage(),
+            '/': (context) => RegisterWithPhoneNumber(),
             '/fire_stream': (context) => const FirebaseStream(),
             '/mainScreen': (context) => const MainScreen(),
           }),

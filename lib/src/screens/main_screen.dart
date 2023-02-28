@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lavash/src/auth/verify_phone_number.dart';
 import 'package:flutter_lavash/src/data/food_data.dart';
 import 'package:flutter_lavash/src/pages/favorites.dart';
 import 'package:flutter_lavash/src/pages/menu.dart';
@@ -9,6 +10,8 @@ import 'package:flutter_lavash/src/widgets/food_card.dart';
 import 'package:flutter_lavash/src/widgets/foods.dart';
 import 'package:flutter_lavash/src/widgets/search_field.dart';
 
+import '../widgets/register_with_phonenumber.dart';
+
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
 
@@ -17,7 +20,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  int _selectedTab = 1;
+  int _selectedTab = 0;
 
   void onSelectedTab(int index) {
     if (_selectedTab == index) return;
